@@ -1,0 +1,4 @@
+<launch>
+    <rosparam command="load" file="$(find ranaa_pkg)/project1.yaml"/>
+    <node pkg="ranaa_pkg" type="project1.py" name="hello" output="screen"></node>
+</launch>
